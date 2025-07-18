@@ -7,7 +7,7 @@ use std::fs;
 use std::path::Path;
 
 fn main() {
-    println!("🔍 Starting Duplicate File Detection...");
+    println!("Starting Duplicate File Detection...");
 
     let folder = args::get_folder();
     let files = args::scan_files(&folder);
